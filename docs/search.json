@@ -2,9 +2,30 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "adi_website",
+    "title": "Home",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome to my professional medical massage practice! I help clients relax, recover, and feel their best.\n\n\n\nI offer a variety of massage therapies tailored to your needs, including:\n\nDeep tissue massage\n\nMedical massage\n\nRelaxation therapy\n\n\n\n\n\nI’m Adi, a certified medical massage therapist with years of experience helping clients recover from injuries and reduce stress.\nLearn more →\n\n\n\n\nFor appointments or questions, please get in touch via email or phone:\n\nEmail: your-email@example.com\n\nPhone: 123-456-7890"
+  },
+  {
+    "objectID": "index.html#services",
+    "href": "index.html#services",
+    "title": "Home",
+    "section": "",
+    "text": "I offer a variety of massage therapies tailored to your needs, including:\n\nDeep tissue massage\n\nMedical massage\n\nRelaxation therapy"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home",
+    "section": "",
+    "text": "I’m Adi, a certified medical massage therapist with years of experience helping clients recover from injuries and reduce stress.\nLearn more →"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Home",
+    "section": "",
+    "text": "For appointments or questions, please get in touch via email or phone:\n\nEmail: your-email@example.com\n\nPhone: 123-456-7890"
   },
   {
     "objectID": "about.html",
