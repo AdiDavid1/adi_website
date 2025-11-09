@@ -11,7 +11,7 @@ body {
 .hero {
   position: relative;
   height: 100vh;
-  background: url('data/IMG_8309.jpeg') center center / cover no-repeat fixed;
+  background: url('data/IMG_8309.jpeg') center center / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,3 +122,12 @@ footer {
     background-repeat: no-repeat !important;
   }
 }
+
+
+/* Smooth parallax motion (works on all devices) */
+.hero {
+  background-position: center center;
+  will-change: background-position;
+  transition: background-position 0.1s ease-out;
+}
+

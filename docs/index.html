@@ -171,6 +171,15 @@ ul.task-list li input[type="checkbox"] {
   }, appearOptions);
   faders.forEach(fader => appearOnScroll.observe(fader));
   </script>
+<script>
+// Mobile-friendly parallax effect
+document.addEventListener('scroll', function() {
+  const hero = document.querySelector('.hero');
+  if (!hero) return;
+  let scrollY = window.scrollY;
+  hero.style.backgroundPositionY = `${scrollY * 0.5}px`;
+});
+</script>
 
 
 
