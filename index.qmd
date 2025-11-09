@@ -1,33 +1,56 @@
 ---
-title: "Home"
+title: "Adi David | Medical Massage Therapy"
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
 ---
 
-# Welcome to Adi's Massage Therapy
+```{=html}
+<!-- Hero Section -->
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="content fade-in">
+    <h1>Adi David</h1>
+    <p class="tagline">Professional medical massage for healing, balance, and recovery</p>
+  </div>
+</section>
 
-Welcome to my professional medical massage practice! I help clients relax, recover, and feel their best.
+<!-- About Section -->
+<section class="about fade-in">
+  <div class="container">
+    <h2>Welcome</h2>
+    <p>
+      My name is <strong>Adi David</strong>, a certified medical massage therapist dedicated to helping people 
+      recover from pain, stress, and physical imbalances through evidence-based bodywork and personalized care.
+    </p>
+    <p>
+      Each session is tailored to your unique needs — whether you’re dealing with chronic pain, muscle tension, 
+      or simply looking to restore calm and well-being.
+    </p>
+  </div>
+</section>
 
----
+<!-- Footer -->
+<footer>
+  <p>© 2025 Adi David · Medical Massage Therapy</p>
+</footer>
+```
 
-## Services
-
-I offer a variety of massage therapies tailored to your needs, including:
-
-- Deep tissue massage  
-- Medical massage  
-- Relaxation therapy  
-
----
-
-## About Me
-
-I’m Adi, a certified medical massage therapist with years of experience helping clients recover from injuries and reduce stress.
-
-[Learn more →](about.qmd)
-
----
-
-## Contact
-
-For appointments or questions, please get in touch via email or phone:
-
-
+<script>
+  const faders = document.querySelectorAll('.fade-in');
+  const appearOptions = { threshold: 0.2, rootMargin: "0px 0px -100px 0px" };
+  const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    });
+  }, appearOptions);
+  faders.forEach(fader => appearOnScroll.observe(fader));
+  </script>
+    
+    
+    

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home – Adi Website</title>
+<title>Adi David | Medical Massage Therapy – Adi Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,6 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -113,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Home</h1>
+<h1 class="title">Adi David | Medical Massage Therapy</h1>
 </div>
 
 
@@ -130,35 +131,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome-to-adis-massage-therapy" class="level1">
-<h1>Welcome to Adi’s Massage Therapy</h1>
-<p>Welcome to my professional medical massage practice! I help clients relax, recover, and feel their best.</p>
-<hr>
-<section id="services" class="level2">
-<h2 class="anchored" data-anchor-id="services">Services</h2>
-<p>I offer a variety of massage therapies tailored to your needs, including:</p>
-<ul>
-<li>Deep tissue massage<br>
-</li>
-<li>Medical massage<br>
-</li>
-<li>Relaxation therapy</li>
-</ul>
-<hr>
+<!-- Hero Section -->
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="content fade-in">
+    <h1>Adi David</h1>
+    <p class="tagline">Professional medical massage for healing, balance, and recovery</p>
+  </div>
 </section>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>I’m Adi, a certified medical massage therapist with years of experience helping clients recover from injuries and reduce stress.</p>
-<p><a href="./about.html">Learn more →</a></p>
-<hr>
+
+<!-- About Section -->
+<section class="about fade-in">
+  <div class="container">
+    <h2 class="anchored">Welcome</h2>
+    <p>
+      My name is <strong>Adi David</strong>, a certified medical massage therapist dedicated to helping people 
+      recover from pain, stress, and physical imbalances through evidence-based bodywork and personalized care.
+    </p>
+    <p>
+      Each session is tailored to your unique needs — whether you’re dealing with chronic pain, muscle tension, 
+      or simply looking to restore calm and well-being.
+    </p>
+  </div>
 </section>
-<section id="contact" class="level2">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<p>For appointments or questions, please get in touch via email or phone:</p>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Adi David · Medical Massage Therapy</p>
+</footer>
+<script>
+  const faders = document.querySelectorAll('.fade-in');
+  const appearOptions = { threshold: 0.2, rootMargin: "0px 0px -100px 0px" };
+  const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    });
+  }, appearOptions);
+  faders.forEach(fader => appearOnScroll.observe(fader));
+  </script>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -583,4 +597,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
