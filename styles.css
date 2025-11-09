@@ -102,3 +102,23 @@ footer {
     background-attachment: fixed;
   }
 }
+
+/* Fix for iPhone/iPad zoomed hero issue */
+@media (max-device-width: 1024px) {
+  .hero {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+}
+
+/* Fix for iPhone/iPad zoomed hero issue */
+@media (max-device-width: 1024px) {
+  .hero {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+}

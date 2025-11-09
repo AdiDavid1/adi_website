@@ -52,5 +52,3 @@ format:
   faders.forEach(fader => appearOnScroll.observe(fader));
   </script>
     
-    
-    
