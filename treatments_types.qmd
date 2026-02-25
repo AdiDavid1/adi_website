@@ -1,0 +1,120 @@
+---
+title: "סוגי טיפולים"
+lang: he
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    dir: rtl
+---
+
+
+```{=html}
+<section class="about fade-in">
+  <div class="container">
+
+    <h2>סוגי הטיפולים בקליניקה</h2>
+    <p>כל הטיפולים מבוססים על ניסיון קליני רב ושיטות מוכחות בתחום העיסוי הרפואי.</p>
+    <p>המטרה היא להקל על כאב, לשפר תנועה ולחזק את הגוף בצורה בטוחה ומקצועית.</p>
+
+    <hr>
+
+    <h2>טיפול בכאבי גב</h2>
+    <p>כאבי גב יכולים להיגרם מישיבה ממושכת, מתח יומיומי או עומס על השרירים.</p>
+    <p><strong>איך הטיפול עוזר:</strong></p>
+    <ul>
+      <li>שחרור שרירים עמוקים ומתח מצטבר</li>
+      <li>עבודה על אזורים כאובים ומתחי שריר</li>
+      <li>התאמת הטיפול למצב הייחודי שלך</li>
+    </ul>
+    <p><strong>מה מרגישים:</strong> הפחתת כאב, שיפור תחושת הגמישות ותחושת נינוחות.</p>
+
+    <hr>
+
+    <h2>טיפול בצוואר וכתפיים</h2>
+    <p>עומס מחשב ולחץ יום-יומי עלולים לגרום להתקשות ולכאב באזור הצוואר והכתפיים.</p>
+    <p><strong>איך הטיפול עוזר:</strong></p>
+    <ul>
+      <li>שחרור שרירים תפוסים</li>
+      <li>שיפור טווח תנועה</li>
+      <li>הקלה על מתח ולחץ</li>
+    </ul>
+    <p><strong>מה מרגישים:</strong> הפחתת כאב, הקלה על עומס, יציבה נינוחה יותר.</p>
+
+    <hr>
+
+    <h2>שחרור עומסים לעובדי משרד</h2>
+    <p>ישיבה ממושכת מול מחשב יוצרת מתח חוזר בגב, צוואר וכתפיים.</p>
+    <p><strong>איך הטיפול עוזר:</strong></p>
+    <ul>
+      <li>שחרור שרירים תפוסים ונקודות לחץ</li>
+      <li>מתיחות עדינות למניעת עומס חוזר</li>
+      <li>טיפול מותאם לאורח החיים שלך</li>
+    </ul>
+    <p><strong>מה מרגישים:</strong> תחושת רוגע, שחרור מתח ושיפור תחושת האנרגיה.</p>
+
+    <hr>
+
+    <h2>טיפול לאחר פציעה</h2>
+    <p>פציעות ספורט או תאונות יכולות להשפיע על התנועה והגמישות.</p>
+    <p><strong>איך הטיפול עוזר:</strong></p>
+    <ul>
+      <li>טיפול מותאם אישית לפי מצבך</li>
+      <li>שחרור שרירים ורקמות עמוקות</li>
+      <li>תמיכה בשיקום ותרגול ביתי</li>
+    </ul>
+    <p><strong>מה מרגישים:</strong> שיפור תפקוד, הקלה על כאב והרגשה בטוחה בתנועה.</p>
+
+    <hr>
+
+    <h2>הגישה הטיפולית בקליניקה</h2>
+    <p>כל טיפול מתחיל בייעוץ אישי כדי להבין את הצרכים שלך. לאחר מכן, אני בונה תוכנית טיפול מותאמת שכוללת:</p>
+    <ul>
+      <li>עיסוי ממוקד לפי הצורך</li>
+      <li>שחרור מתח מהשרירים</li>
+      <li>הנחיות להמשך טיפול בבית</li>
+    </ul>
+    <p><strong>המטרה:</strong> טיפול מקצועי, בטוח ויעיל שמחזיר את הגוף לתפקוד מלא.</p>
+
+    <hr>
+
+    <p><strong>לתיאום פגישה ראשונית ניתן לפנות בוואטסאפ או בטלפון.</strong></p>
+
+  </div>
+</section>
+
+<footer dir="ltr">
+  <p>© 2026 Adi David · Medical Massage Therapy</p>
+</footer>
+
+<script>
+const faders = document.querySelectorAll('.fade-in');
+const appearOptions = { threshold: 0.2, rootMargin: "0px 0px -100px 0px" };
+const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.add('visible');
+    observer.unobserve(entry.target);
+  });
+}, appearOptions);
+faders.forEach(fader => appearOnScroll.observe(fader));
+</script>
+```
+
+<script>
+  const faders = document.querySelectorAll('.fade-in');
+  const appearOptions = { threshold: 0.2, rootMargin: "0px 0px -100px 0px" };
+  const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    });
+  }, appearOptions);
+  faders.forEach(fader => appearOnScroll.observe(fader));
+  </script>
+  
+  

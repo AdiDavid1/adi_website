@@ -1,11 +1,14 @@
 ---
-title: "Adi David | Medical Massage Therapy"
+title: "עדי דוד | עיסוי רפואי"
+lang: he
+
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
     smooth-scroll: true
+    dir: rtl
 ---
 
 ```{=html}
@@ -13,29 +16,31 @@ format:
 <section class="hero">
   <div class="overlay"></div>
   <div class="content fade-in">
-    <h1>Adi David</h1>
-    <p class="tagline">Professional medical massage for healing, balance, and recovery</p>
+    <h1>עדי דוד – עיסוי רפואי ממוקד</h1>
+    <p class="tagline">
+      סובלים מכאבי גב, צוואר או עומס שרירי? טיפול מקצועי שמחזיר את הגוף לאיזון ולתפקוד מלא.
+    </p>
   </div>
 </section>
 
 <!-- About Section -->
 <section class="about fade-in">
   <div class="container">
-    <h2>Welcome</h2>
+    <h2>נעים להכיר</h2>
     <p>
-      My name is <strong>Adi David</strong>, a certified medical massage therapist dedicated to helping people 
-      recover from pain, stress, and physical imbalances through evidence-based bodywork and personalized care.
+      שמי <strong>עדי דוד</strong>, מטפלת מוסמכת בעיסוי רפואי, המתמחה בטיפול בכאבים כרוניים,
+      עומסים שריריים ופציעות הנובעות משגרת חיים אינטנסיבית.
     </p>
     <p>
-      Each session is tailored to your unique needs — whether you’re dealing with chronic pain, muscle tension, 
-      or simply looking to restore calm and well-being.
+      כל טיפול מתחיל באבחון והתאמה אישית, וממוקד בשורש הבעיה – לא רק בסימפטומים.
+      המטרה היא להקל על הכאב, לשפר טווחי תנועה, ולהחזיר אתכם לתחושת יציבות ושליטה בגוף.
     </p>
   </div>
 </section>
 
 <!-- Footer -->
-<footer>
-  <p>© 2025 Adi David · Medical Massage Therapy</p>
+<footer dir="ltr">
+  <p>© 2026 Adi David · Medical Massage Therapy</p>
 </footer>
 ```
 
