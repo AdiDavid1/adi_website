@@ -1,0 +1,15 @@
+---
+title: "לקוחות"
+lang: he
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    dir: rtl
+---
+
+
+TODO

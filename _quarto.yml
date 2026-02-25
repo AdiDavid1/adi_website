@@ -3,13 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "Adi Website"
+  title: "עדי קליניק"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
+        text: בית
+      - href: treatments_types.qmd
+        text: סוגי טיפולים
+      - href: recommendations.qmd
+        text: לקוחות
+      - href: contact.qmd
+        text: יצירת קשר
 
 format:
   html:
